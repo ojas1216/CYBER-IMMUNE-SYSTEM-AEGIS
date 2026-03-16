@@ -1,10 +1,10 @@
-### CYBER-IMMUNE-SYSTEM-AEGIS
+# CYBER-IMMUNE-SYSTEM-AEGIS
 Autonomous Defense & Adversarial Posture Tester
 
 Overview
 AEGIS-ADAPT creates a continuous "cyber immune system" by automatically generating and testing blue team defenses based on red team findings in real-time. It establishes a closed feedback loop between offensive and defensive security operations.
 
-### IMPORTANT LEGAL DISCLAIMER
+#IMPORTANT LEGAL DISCLAIMER
 - THIS TOOL IS PROVIDED FOR EDUCATIONAL AND AUTHORIZED SECURITY TESTING PURPOSES ONLY.
 
 - By downloading, installing, or using this software, you acknowledge and agree that:
@@ -21,7 +21,7 @@ AEGIS-ADAPT creates a continuous "cyber immune system" by automatically generati
 
 - IF YOU DO NOT AGREE with these terms, do not download, install, or use this software.
 
-### Architecture
+## Architecture
 ```bash
 ┌─────────────────┐    ┌─────────────────┐    ┌─────────────────┐
 │   Red Team      │    │    Analyzer     │    │   Blue Team     │
@@ -34,7 +34,7 @@ AEGIS-ADAPT creates a continuous "cyber immune system" by automatically generati
 │         (Variant Generation → Testing → Tuning)              │
 └─────────────────────────────────────────────────────────────┘
 ```
-# Key Features
+## Key Features
 -200+ attack scenarios across 8 MITRE ATT&CK phases
 
 - RAG-based retrieval (ChromaDB + FAISS) for intelligent technique selection
@@ -47,7 +47,7 @@ AEGIS-ADAPT creates a continuous "cyber immune system" by automatically generati
 
 - LLM integration: Ollama (primary) + Gemini (fallback) for command generation
 
-# Quick Install
+## Quick Install
 ```bash
 # Clone and setup
 git clone https://github.com/yourusername/CYBER-IMMUNE-SYSTEM-AEGIS.git
@@ -90,7 +90,7 @@ python aegis_adapt.py
 # Quick scan
 python aegis_adapt.py --target scanme.nmap.org
 ```
-# Help
+## Help
 ```bash
 python aegis_adapt.py --help
 CLI Commands
@@ -109,7 +109,7 @@ config                  - Display current configuration
 exit                    - Quit the application
 help                    - Show this help message
 ```
-### Example Workflow
+## Example Workflow
 ```bash
 # Start the tool
 python aegis_adapt.py
@@ -136,7 +136,7 @@ aegis-adapt> export json
 
 aegis-adapt> exit 
 ```
-# Output Formats
+## Output Formats
 - HTML Reports: Executive summaries with heatmaps and findings
 
 - JSON/CSV: Machine-readable data export
@@ -155,7 +155,7 @@ aegis-adapt> exit
 
 - Remediation Code: Python, PowerShell, Bash
 
-### Project Structure
+## Project Structure
 ```bash
 CYBER-IMMUNE-SYSTEM-AEGIS/
 ├── aegis_adapt.py          # Main application
@@ -170,7 +170,7 @@ CYBER-IMMUNE-SYSTEM-AEGIS/
 ├── output/                 # Exported reports
 └── rules/                  # Generated detection rules
 ```
-### Configuration (.env)
+## Configuration (.env)
 ```bash
 # Paths
 DATASET_PATH=attack_scenarios.json
@@ -193,27 +193,27 @@ LOG_LEVEL=INFO
 
 ```
 
-### Troubleshooting
+## Troubleshooting
 
  Check installed tools
 ```bash
 where nmap  # Windows
 which nmap  # Linux/Mac
 ```
-# Reset database
+### Reset database
 ```bash
 rm data/aegis_adapt.db
 ```
-# Update dependencies
+### Update dependencies
 ```bash
 pip install --upgrade -r requirements.txt
 ```
-# Test imports
+### Test imports
 ```bash
 python -c "import numpy; import pandas; print('OK')"
 ```
 
-### License
+## License
 Copyright (c) 2026 Ojas Satardekar. All rights reserved. See LICENSE.txt for terms.
 
 # LEGAL RESPONSIBILITY
@@ -233,6 +233,6 @@ Copyright (c) 2026 Ojas Satardekar. All rights reserved. See LICENSE.txt for ter
 
 By using this software, you acknowledge that you are solely responsible for complying with all applicable laws and regulations. If you cannot accept this responsibility, do not use this software.
 
-Contact
+# Contact
 Ojas Satardekar - ojas191025@gmail.com
 
