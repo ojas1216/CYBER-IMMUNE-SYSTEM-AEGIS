@@ -90,6 +90,23 @@ python aegis_adapt.py
 # Quick scan
 python aegis_adapt.py --target scanme.nmap.org
 ```
+
+## Required External Tools
+
+For full functionality, install these security tools:
+```bash
+| Tool | Purpose | Installation |
+|------|---------|--------------|
+| Nmap | Port scanning | [nmap.org](https://nmap.org/download.html) |
+| SQLMap | SQL injection | `pip install sqlmap` |
+| GoBuster | Directory enumeration | [GitHub](https://github.com/OJ/gobuster/releases) |
+| Masscan | Fast port scanning | [GitHub](https://github.com/robertdavidgraham/masscan) |
+| Amass | DNS enumeration | [GitHub](https://github.com/OWASP/Amass) |
+| Hydra | Password brute-forcing | [GitHub](https://github.com/vanhauser-thc/thc-hydra) |
+| TheHarvester | Email/subdomain gathering | `pip install theHarvester` |
+| Nikto | Web server scanner | [GitHub](https://github.com/sullo/nikto) |
+```
+
 ## Help
 ```bash
 python aegis_adapt.py --help
