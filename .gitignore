@@ -1,0 +1,243 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+pythonenv.*
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+pip-selfcheck.json
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Database files
+*.db
+*.db-journal
+*.sqlite
+*.sqlite3
+
+# Vector database files
+chroma_data/
+faiss_index/
+*.index
+*.faiss
+chroma/
+*.chroma
+
+# Logs
+logs/
+*.log
+*.log.*
+
+# Output files
+output/
+*.html
+*.json
+*.csv
+*.xlsx
+*.pdf
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.svg
+
+# Rules files
+rules/
+!rules/.gitkeep
+
+# Test files
+tests/
+!tests/.gitkeep
+*.test
+*.spec
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+.project
+.pydevproject
+.settings/
+
+# OS
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+*.temp
+*.bak
+*.backup
+*.cache
+
+# System files
+*.pid
+*.lock
+*.sock
+
+# Encryption keys
+*.key
+*.pem
+*.crt
+*.p12
+*.pfx
+
+# Security credentials
+.credentials
+.aws/
+.gcp/
+.azure/
+
+# Docker
+.dockerignore
+Dockerfile
+docker-compose.yml
+
+# Kubernetes
+*.kubeconfig
+*.yaml
+*.yml
+
+# CI/CD
+.gitlab-ci.yml
+.github/
+.circleci/
+.travis.yml
+.jenkins/
+
+# Documentation
+docs/_build/
+site/
+*.rdb
+
+# Package manager
+node_modules/
+bower_components/
+vendor/
+
+# Backup files
+*.backup
+*.bak
+*.old
+*.orig
+
+# Memory dumps
+core.*
+*.core
+*.dmp
+
+# Profiling data
+*.prof
+*.stats
+*.pstats
+
+# Environment specific
+.env.local
+.env.development
+.env.test
+.env.production
+.env.staging
+
+# Secrets
+secrets/
+secrets.*
+*.secret
+*.key
+*.pem
+*.crt
+
+# Certificates
+*.cer
+*.crt
+*.p12
+*.pfx
+*.pem
+
+# SSH keys
+id_rsa
+id_dsa
+*.pem
+
+# API keys
+*.api_key
+*.apikey
+*.token
+
+# Keep empty directories
+!.gitkeep
+
+# Project specific
+# Add any project-specific patterns below this line
+aegis_adapt.db
+chroma_data/
+faiss_index/
+logs/
+output/
+rules/
+tests/
+.env
+*.db
+*.index
+*.log
+*.html
+*.json
+*.csv
