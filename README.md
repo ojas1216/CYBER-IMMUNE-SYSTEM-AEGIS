@@ -35,7 +35,7 @@ AEGIS-ADAPT creates a continuous "cyber immune system" by automatically generati
 └─────────────────────────────────────────────────────────────┘
 ```
 ## Key Features
--200+ attack scenarios across 8 MITRE ATT&CK phases
+- 200+ attack scenarios across 8 MITRE ATT&CK phases
 
 - RAG-based retrieval (ChromaDB + FAISS) for intelligent technique selection
 
